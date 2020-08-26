@@ -74,6 +74,11 @@
 			<key>orderHint</key>
 			<integer>19</integer>
 		</dict>
+		<key>ServerUse.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>SubDataDisplay.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>

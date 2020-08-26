@@ -24,7 +24,7 @@ class RootViewController: UITableViewController {
         contents.append("버튼을 누르면 텍스트 입력")
 
         titles.append("이미지 애니메이션")
-        contents.append("확대/축소/회전")
+        contents.append("이미지 확대/축소/회전")
 
         titles.append("스크롤 뷰")
         contents.append("스크롤 기능 이용 화면에 이미지 표시")
