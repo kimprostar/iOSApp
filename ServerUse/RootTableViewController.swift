@@ -21,6 +21,18 @@ class RootTableViewController: UITableViewController {
         
         titles.append("XML Parsing")
         subtitles.append("한겨레 신문사 RSS 출력")
+        
+        titles.append("JSON Parsing")
+        subtitles.append("영화 목록 출력")
+        
+        titles.append("Thread")
+        subtitles.append("Thread 클래스 와 비동기 다운로드")
+        
+        titles.append("비동기 다운로드")
+        subtitles.append("URLSession을 이용한 비동기 다운로드")
+        
+        titles.append("Item Open API 활용")
+        subtitles.append("Alamofire를 이용한 비동기 요청 처리")
     
     }
     
@@ -58,6 +70,18 @@ class RootTableViewController: UITableViewController {
         if indexPath.row == 0{
             let titleViewController = self.storyboard?.instantiateViewController(withIdentifier: "titleViewController") as! TitleViewController
             self.navigationController?.pushViewController(titleViewController, animated: true)
+        }else if indexPath.row == 1{
+            let movieListViewController = self.storyboard?.instantiateViewController(withIdentifier: "MovieListViewController") as! MovieListViewController
+            self.navigationController?.pushViewController(movieListViewController, animated: true)
+        }else if indexPath.row == 2{
+            let threadViewController = self.storyboard?.instantiateViewController(withIdentifier: "ThreadViewController") as! ThreadViewController
+            self.navigationController?.pushViewController(threadViewController, animated: true)
+        }else if indexPath.row == 3{
+            let asyncViewController = self.storyboard?.instantiateViewController(withIdentifier: "AsyncViewController") as! AsyncViewController
+            self.navigationController?.pushViewController(asyncViewController, animated: true)
+        }else if indexPath.row == 4{
+            let itemListViewController = self.storyboard?.instantiateViewController(withIdentifier: "ItemListViewController") as! ItemListViewController
+            self.navigationController?.pushViewController(itemListViewController, animated: true)
         }
     }
 }

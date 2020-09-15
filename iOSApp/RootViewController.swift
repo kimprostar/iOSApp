@@ -71,6 +71,9 @@ class RootViewController: UITableViewController {
         titles.append("동기적 다운로드")
         contents.append("텍스트와 이미지를 동기적으로 다운로드 받아서 출력")
         
+        titles.append("위치 정보 사용")
+        contents.append("위도, 경도, 고도, 처음 위치에서의 거리를 출력")
+        
     }
 
     //섹션의 개수를 설정하는 메소드
@@ -180,50 +183,13 @@ class RootViewController: UITableViewController {
         }else if indexPath.row == 19{
             let syncDownloadViewController = self.storyboard?.instantiateViewController(withIdentifier: "syncdownloadview") as! SyncDownloadViewController
             self.navigationController?.pushViewController(syncDownloadViewController, animated: true)
+        }else if indexPath.row == 20{
+            let locationUseViewController = self.storyboard?.instantiateViewController(withIdentifier: "LocationUseViewController") as! LocationUseViewController
+            self.navigationController?.pushViewController(locationUseViewController, animated: true)
         }
 
 
     }
-    
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-            // Delete the row from the data source
-            tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-
 
 }
 

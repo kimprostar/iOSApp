@@ -61,8 +61,7 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
     
-    <!-- ATS 설정이 되지 않은 서버에도
-    접속할 수 있도록 설정 -->
+    <!-- ATS 설정이 되지 않은 서버에도 접속할 수 있도록 설정 -->
     <key>NSAppTransportSecurity</key>
     <dict>
         <key>NSAllowsArbitraryLoads</key>

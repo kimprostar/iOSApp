@@ -19,11 +19,6 @@
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
-		<key>ControlTest.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
 		<key>EditTable.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -54,11 +49,6 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
-		<key>NaviApp.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 		<key>NaviWeb.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -77,12 +67,7 @@
 		<key>ServerUse.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
-		</dict>
-		<key>SubDataDisplay.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>8</integer>
 		</dict>
 		<key>SwitchViewController.xcscheme_^#shared#^_</key>
 		<dict>
@@ -112,7 +97,7 @@
 		<key>iOSApp.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>7</integer>
 		</dict>
 		<key>subDataDisplay.xcscheme_^#shared#^_</key>
 		<dict>
@@ -122,6 +107,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>35308DC224EF9B7600734142</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>35308E4724EFA04C00734142</key>
 		<dict>
 			<key>primary</key>
@@ -133,6 +123,11 @@
 			<true/>
 		</dict>
 		<key>356E6E9D24F358DF00468710</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>35F8861924F4F64800B96E79</key>
 		<dict>
 			<key>primary</key>
 			<true/>

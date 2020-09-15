@@ -61,7 +61,7 @@ class TitleViewController: UITableViewController {
         //행 번호에 해당하는 데이터 찾기
         let temp = haniList[indexPath.row]
         //하위 뷰 컨트롤러 객체 생성
-        let linkViewController = self.storyboard?.instantiateViewController(identifier: "linkViewController") as! LinkViewController
+        let linkViewController = self.storyboard?.instantiateViewController(withIdentifier: "linkViewController") as! LinkViewController
         //데이터 넘겨주기
         linkViewController.link = temp.link
         //푸시
@@ -121,4 +121,3 @@ extension TitleViewController : XMLParserDelegate{
         
     }
 }
-
